@@ -30,4 +30,4 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with django
       run: |
-        python3 portfolio/manage.py test
+        python portfolio/manage.py test
