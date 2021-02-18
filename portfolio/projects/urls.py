@@ -1,6 +1,7 @@
 from django.urls import path
 from . import views
 
+#Url patterns for projects app
 urlpatterns = [
     path('', views.home_index, name='home_index'),
     path("project/", views.project_index, name="project_index"),
